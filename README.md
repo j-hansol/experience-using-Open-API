@@ -401,6 +401,7 @@ public function updateTask(RequestTask $request, Task $id) : JsonResponse {
 
 ### 적용 규칙
 
+* 문서화 대상(Request, Dto, Service, Exception, Enum, JsonResponse) 위주로 코드를 분리하고 문서화 하되, 분리가 힘든 경우 BaseController에 임시 맴버 변수를 두고 문서화한다.
 * Model 클래스에는 데이터 저장과 검색에 필요한 최소한의 코드로 작성
 * Request 대신 FormRequest를 이용하여 요청에 대한 유효성 검사 오류를 응답하도록 한다.
 * OpenApi 입력정보를 FormRequest 유효성 검사 규칙부분에 컴포넌트 형태로 기술한다.
