@@ -444,7 +444,7 @@ use OpenApi\Annotations as OA;
  *      description="백엔드 로컬 개발환경 전용"
  * )
  * @OA\Server(
- *      url="https://tlk.sohocode.kr/api/v1",
+ *      url="https://tlk.....kr/api/v1",
  *      description="프론트엔드 테스트서버"
  * )
  *
